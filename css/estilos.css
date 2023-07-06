@@ -395,6 +395,60 @@ section div a {
     justify-content: center;
 }
 
+/* Estilos Subpágina Aplicaciones Celular */
+
+#main-apps-movil {
+    background-color: #dad9c2;
+}
+
+#h1-apps-movil {
+    font-family: 'Bitter', serif;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+#h2-apps-movil {
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+}
+
+#main-apps-movil img {
+    display: block;
+    margin: 0 auto;
+}
+
+#h3-apps-movil {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    margin: 100px 100px 0px 100px;
+}
+
+.p-apps-movil-items {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: underline;
+    margin: 50px 100px 0px 100px;
+}
+
+.p-apps-movil {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 100px 0px 100px;
+}
+
 
 
 
