@@ -32,6 +32,15 @@ header {
     z-index: 2;
 }
 
+/* Media queries para dispositivos móviles */
+
+@media (max-width: 1000px) {
+    .logo {
+    max-width: 50%;
+    }
+}
+
+
 /* Estilos Index */
 
 #main-index {
@@ -225,6 +234,40 @@ header {
     font-size: 15px;
 }
 
+/* Media queries para dispositivos móviles */
+
+@media (max-width: 767px) {
+    .container-infoutil {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main-infoutil {
+        height: auto;
+    }
+    
+    .tarjeta-infoutil {
+        flex: 1 0 calc(90% - 40px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .container-infoutil {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .tarjeta-infoutil {
+        flex: 1 0 calc(40% - 40px);
+        align-self: stretch;
+    }
+
+    .main-infoutil {
+        height: auto;
+    }
+}
+
 /* Estilos Lugares */
 
 #main-lugares {
@@ -315,6 +358,24 @@ section div a {
 
 #sofia {
     background-image: url(https://images.pexels.com/photos/8514532/pexels-photo-8514532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+/* Media queries para dispositivos móviles */
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .grid-item {
+        height: 50vh;
+        width: 100%;
+    }
+
+    #main-lugares {
+        height: auto;
+    }
 }
 
 /* Estilos Contacto */
@@ -602,75 +663,6 @@ section div a {
     margin: 0px 100px 0px 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilos Footer */
 
 footer {
@@ -703,4 +695,12 @@ footer {
     font-family: 'Bitter', serif;
     font-weight: 500;
     font-size: 15px
+}
+
+/* Media queries para dispositivos móviles */
+
+@media screen and (max-width: 767px) {
+    .footer-texto p {
+    font-size: 12px;
+    }
 }
