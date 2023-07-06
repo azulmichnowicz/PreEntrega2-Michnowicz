@@ -48,7 +48,28 @@
         </nav>
     </header>
     <!--Contenido Principal-->
-    <main></main>
+    <main>
+        <div id="main-contacto">
+            <h1 id="h1-contacto">Contacto</h1>
+            <form action="enviar" method="POST" class="formulario">
+                <div class="categoria-formulario">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre y apellido" required>
+                </div>
+                <div class="categoria-formulario">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="alguien@gmail.com" required>
+                </div>
+                <div class="categoria-formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje o consulta aquí" required></textarea>
+                </div>
+                <div class="enviar">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <!--Footer-->
     <footer>
         <div class="footer-container bg-body-tertiary">
