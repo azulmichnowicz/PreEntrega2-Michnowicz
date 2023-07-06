@@ -225,6 +225,97 @@ header {
     font-size: 15px;
 }
 
+/* Estilos Lugares */
+
+#main-lugares {
+    height: 75vh;
+    position: relative;
+    z-index: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    background-color: #dad9c2;
+    height: 100%;
+}
+
+.grid-item {
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    width: auto;
+}
+
+.grid-item .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+section div a {
+    text-decoration: none;
+}
+
+.p-ciudades-lugares {
+    color: black;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#amsterdam {
+    background-image: url(https://images.pexels.com/photos/2856012/pexels-photo-2856012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#bariloche {
+    background-image: url(https://images.pexels.com/photos/13452029/pexels-photo-13452029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#berlin {
+    background-image: url(https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#javea {
+    background-image: url(https://i.pinimg.com/564x/62/44/87/6244877808039f3fa7a159660c945f7c.jpg);
+}
+
+#madrid {
+    background-image: url(https://images.pexels.com/photos/930595/pexels-photo-930595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#praga {
+    background-image: url(https://images.pexels.com/photos/7245230/pexels-photo-7245230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#roma {
+    background-image: url(https://images.pexels.com/photos/3021382/pexels-photo-3021382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+#sofia {
+    background-image: url(https://images.pexels.com/photos/8514532/pexels-photo-8514532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
 
 
 
