@@ -504,6 +504,59 @@ section div a {
     margin: 20px 100px 0px 100px;
 }
 
+/* Estilos subpágina Equipaje de Mano */
+
+#main-carry-on {
+    background-color: #dad9c2;
+}
+#h1-carry-on {
+    font-family: 'Bitter', serif;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+#h2-carry-on {
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+}
+
+#main-carry-on img {
+    display: block;
+    margin: 0 auto;
+}
+
+#h3-carry-on {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    margin: 100px 100px 0px 100px;
+}
+
+.p-carry-on-items {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: underline;
+    margin: 50px 100px 0px 100px;
+}
+
+.p-carry-on {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 100px 0px 100px;
+}
+
 
 
 
