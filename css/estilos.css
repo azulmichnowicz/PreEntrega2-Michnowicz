@@ -557,6 +557,50 @@ section div a {
     margin: 20px 100px 0px 100px;
 }
 
+/* Estilos de cada subpágina de Lugares */
+
+.main-ciudades {
+    background-color: #dad9c2;
+}
+
+.h1-ciudades {
+    font-family: 'Bitter', serif;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+.h2-ciudades {
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.img-ciudades {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.p-ciudades {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 100px 50px 100px;
+}
+
+.p-azul-ciudades {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 100px 0px 100px;
+}
 
 
 
