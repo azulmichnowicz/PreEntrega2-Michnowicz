@@ -157,7 +157,73 @@ header {
     font-weight: 500;
 }
 
+/* Estilos Info Util */
 
+.main-infoutil {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    background-color: #dad9c2;
+}
+
+.container-infoutil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-infoutil {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(150, 156, 131);
+    width: 20%;
+    flex: 1 0 calc(30% - 40px);
+}
+
+.tarjeta-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.tarjeta-principal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2-tarjeta {
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.p-tarjeta {
+    margin-bottom: 10px;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.boton-personalizado {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #9a9c88;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid rgb(182, 182, 190);
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
 
 
 
